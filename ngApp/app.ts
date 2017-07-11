@@ -1,5 +1,4 @@
 namespace rightfooteducation {
-
     angular.module('rightfooteducation', ['ui.router', 'ngResource', 'ui.bootstrap']).config((
         $stateProvider: ng.ui.IStateProvider,
         $urlRouterProvider: ng.ui.IUrlRouterProvider,
@@ -29,8 +28,5 @@ namespace rightfooteducation {
 
         // Enable HTML5 navigation
         $locationProvider.html5Mode(true);
-    });
-
-    
-
+    });  
 }
